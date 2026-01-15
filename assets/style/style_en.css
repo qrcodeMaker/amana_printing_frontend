@@ -1730,7 +1730,7 @@ h1.title::after {
 
 .blogs .cards div.border_around h3 {
   color: #343a40;
-  text-align: right;
+  text-align: left;
   line-height: 30px;
 }
 
