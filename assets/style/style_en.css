@@ -124,7 +124,7 @@ a:visited {
 }
 
 .head {
-  background: linear-gradient(263.81deg, #f3d7ca -1.02%, #e0bfaf 100%), url("../images/itm1bg.png");
+  background: linear-gradient(263.81deg, #f3d7ca -1.02%, #ff1c00 100%), url("../images/itm1bg.png");
   background-size: 100% 160%;
   padding: 30px;
   background-blend-mode: color;
@@ -376,6 +376,37 @@ footer a:hover {
 
 footer a.btn:hover {
   background-color: white;
+}
+
+.img-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 9999;
+}
+
+.img-modal img {
+  max-width: 90%;
+  max-height: 90%;
+  -webkit-box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+}
+
+.img-modal .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 40px;
+  color: #fff;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 991px) {
