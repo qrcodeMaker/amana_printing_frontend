@@ -503,6 +503,12 @@ footer a.btn:hover {
   margin-top: 2px;
 }
 
+.card-desc {
+  padding: 0px 10px;
+  color: #776e6e;
+  text-align: center;
+}
+
 @media screen and (max-width: 991px) {
   .navigation-container {
     padding-left: 35px;
@@ -2240,6 +2246,14 @@ h1.title::after {
   margin: 30px 0px;
 }
 
+.single_product .table thead th {
+  font-weight: 700;
+}
+
+.single_product .table td, .single_product .table th {
+  vertical-align: middle;
+}
+
 .single_product .tab-pane p {
   color: var(--font-color);
   font-weight: 600;
@@ -2630,6 +2644,9 @@ h1.title::after {
   }
   .single_banner div.px-media {
     aspect-ratio: 2/1;
+  }
+  .basic_forms .row .item {
+    width: calc(100% / 2);
   }
 }
 
