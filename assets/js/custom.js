@@ -35,18 +35,6 @@ $( 'body, .search-close' ).click(function(e) {
     }
 });
 
-/* Mobile slick nav */
-$('#navigation').slicknav({
-  duration: 500,
-  closedSymbol: '<i class="fas fa-plus"></i>',
-  openedSymbol: '<i class="fas fa-minus"></i>',
-  prependTo: '.mobile-menu-container',
-  allowParentLinks: true,
-  nestedParentLinks : false,
-  label: "Menu", 
-  closeOnClick: true, // Close menu when a link is clicked.
-});
-
 /* Date picker */
 $( function() {
   $( ".input-date-picker" ).datepicker();
@@ -114,11 +102,7 @@ $("#backTotop").click(function(e) {
 });
 
 
-$(document).ready(function(){
-  /* Count down */
-  loopcounter('time-counter');
 
-});
 
 /* Tour detail slider */
 $('.single-tour-slider').slick({
