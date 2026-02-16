@@ -9,6 +9,59 @@
   font-style: normal;
   src: url("../vendors/somar-rounded/SomarRounded-Regular.ttf");
 }
+
+.register {
+  select{
+    border: none !important;
+    width: 100%;
+  }
+  form {
+    background-color: #fff9f6;
+    margin: 50px 10px;
+    border: 1px solid rgb(193, 193, 193);
+    border-radius: 4px;
+    h2 {
+      font-size: 16px;
+      border-bottom: 1px solid #00000026;
+      padding-bottom: 16px;
+      margin-bottom: 20px;
+    }
+    .eye {
+      position: absolute;
+      right: 10px;
+      top: 12px;
+      color: gray;
+      z-index: 9999999;
+    }
+    .btn {
+      background-color: var(--primry-color);
+      color: white;
+      font-weight: 700;
+      font-family: 12px;
+      padding: 12px;
+    }
+    .input-group {
+      border: 1px solid #0000001a;
+      border-radius: 6px;
+      overflow: hidden;
+      padding: 0px 15px;
+      background-color: white;
+      span {
+        border: none;
+        background-color: white;
+      }
+      input , select{
+        padding: 15px 5px;
+        border: none;
+        box-shadow: none;
+      }
+      input::placeholder {
+        color: #121212;
+        font-family: "regularFont";
+      }
+    }
+  }
+}
 .stars{
   font-size: 12px;
   .gold {
