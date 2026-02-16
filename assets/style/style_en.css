@@ -22,6 +22,11 @@
   color: #D9DDE1;
 }
 
+.bg-brimary {
+  background-color: var(--primry-color);
+  color: white;
+}
+
 .more_dark {
   background-color: var(--primry-color);
   color: white;
