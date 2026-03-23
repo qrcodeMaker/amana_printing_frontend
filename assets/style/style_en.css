@@ -2386,7 +2386,27 @@ h1.title::after {
   margin: 20px 0px 0px;
 }
 
+.whatsapp_btn {
+  position: fixed;
+  bottom: 25%;
+  right: 10px;
+  background-color: #00bb35;
+  color: white;
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 8px;
+  z-index: 99999;
+  -webkit-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+}
+
 @media screen and (max-width: 991px) {
+  .reviews button img {
+    width: 30px;
+  }
   .error img {
     width: 40%;
     margin: auto;
