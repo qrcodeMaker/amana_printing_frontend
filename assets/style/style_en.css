@@ -1968,10 +1968,6 @@ h1.title::after {
           box-shadow: 0px 5px 50px 0px #f3d7ca;
 }
 
-.contact .form input {
-  direction: rtl;
-}
-
 .contact .form .btn {
   background-color: var(--primry-color);
   color: white;
