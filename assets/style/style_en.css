@@ -1664,6 +1664,14 @@ h1.title::after {
   background-color: white;
 }
 
+.about > *:nth-child(even) {
+  background-color: cornsilk;
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: reverse !important;
+      -ms-flex-direction: row-reverse !important;
+          flex-direction: row-reverse !important;
+}
+
 .about .shape {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1700,6 +1708,7 @@ h1.title::after {
 .about p {
   color: var(--font-color);
   font-size: 18px;
+  text-align: justify;
 }
 
 .about h2 {

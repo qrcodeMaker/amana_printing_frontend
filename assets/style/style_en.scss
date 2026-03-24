@@ -1605,6 +1605,10 @@ h1.title {
   background-color: white;
 }
 .about {
+  > *:nth-child(even){
+    background-color: cornsilk;
+    flex-direction: row-reverse !important;
+  }
   .shape {
     display: flex;
     justify-content: space-between;
@@ -1633,6 +1637,8 @@ h1.title {
   p {
     color: var(--font-color);
     font-size: 18px;
+     text-align: justify;
+
   }
   h2 {
     color: var(--primry-color);
