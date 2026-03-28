@@ -10,6 +10,20 @@
   src: url("../vendors/somar-rounded/SomarRounded-Regular.ttf");
 }
 
+.contact_digital_services {
+  background-color: var(--primry-color);
+}
+
+.contact_digital_services .register form {
+  background-color: var(--primry-color);
+}
+
+.contact_digital_services .register form .btn {
+  background: #c76565;
+  background: radial-gradient(circle, rgba(199, 101, 101, 0.72) 0%, rgba(209, 192, 192, 0.88) 58%, #c28484 80%, rgba(36, 26, 26, 0.75) 100%);
+  width: 100%;
+}
+
 .register select {
   border: none !important;
   width: 100%;
@@ -283,7 +297,11 @@ a:visited {
 }
 
 .our_message {
-  background-color: #fff9f6;
+  background-color: var(--primry-color);
+}
+
+.our_message > h2, .our_message > p {
+  color: white;
 }
 
 .our_message .col-lg-4 {
@@ -1662,6 +1680,15 @@ h1.title::after {
 .more:hover {
   border: 2px solid var(--primry-color);
   background-color: white;
+}
+
+.about ol li {
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+
+.about ol li strong {
+  color: var(--primry-color);
 }
 
 .about > *:nth-child(even) {
