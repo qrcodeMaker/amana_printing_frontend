@@ -99,30 +99,8 @@ function closeModal(){
   document.getElementById('imgModal').style.display = 'none';
   document.getElementById('modalImg').src = '';
 }
-///
-let eyes= document.querySelectorAll('.eye ') ;
-if(eyes){
-  eyes.forEach(e=>{
-    e.addEventListener('click', ()=>{
-        e.parentElement.querySelector('input').setAttribute('type', 'text')
-        e.classList.add('d-none' )
-    })
-  })
-}
-//
 
 
 
-
-
-let searchIcon = document.querySelector('.search-icon');
-let searchField = document.getElementById('search');
-
-searchIcon.addEventListener('click', () => {
-    if (searchField) {
-        setTimeout(function(){ searchField.focus (); }, 50);
-
-    }
-});
 
 

@@ -2156,15 +2156,16 @@ h1.title {
   display: flex;
   a,
   button {
-    width: 42px !important;
+    width: 100% !important;
     height: 42px !important;
-    display: inline-flex;
+    display: block;
     justify-content: center;
     border: none;
     border-radius: 4px !important;
     align-items: center;
-    background-color: var(--secondry-color) !important;
-    color: var(--primry-color);
+    background-color: #22b544 !important;
+    color: white;
+    display: none;
   }
   a:hover,
   button:hover {
@@ -2297,78 +2298,20 @@ h1.title {
 }
 
 
-@keyframes videoPulse {
-  0%,
-  35% {
-    -webkit-transform: scale(0);
-    transform: scale(0);
-    opacity: 1;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  }
-  50% {
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5);
-    opacity: 0.8;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
-  }
-  100% {
-    opacity: 0;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    -webkit-transform: scale(2);
-    transform: scale(2);
-  }
-}
+.Request_services_btn{
+  background: #22b544;
+   border: none;
+   padding: 10px;
+   text-align: center;
+   position: fixed;
+   bottom: 10px;
+   display: none;
+   width: 100%;
+   color: white;
+   font-size: 17px;
+   
+ }
 
-@keyframes loading-1 {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(36);
-    transform: rotate(36deg);
-  }
-}
-@keyframes loading-2 {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(72);
-    transform: rotate(72deg);
-  }
-}
-@keyframes loading-3 {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(108);
-    transform: rotate(108deg);
-  }
-}
-@keyframes loading-4 {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(144);
-    transform: rotate(144deg);
-  }
-}
-@keyframes loading-5 {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(180);
-    transform: rotate(180deg);
-  }
-}
 .head h2 {
   margin-bottom: 30px !important;
 
@@ -2496,4 +2439,13 @@ width: 200px;
     left: 10px;
     bottom: 10px;
   }
+}
+@media screen and (max-width: 768px) {
+.contact_digital_services {
+  display: none;
+}
+.Request_services_btn{ 
+  display: block !important;
+
+}
 }
