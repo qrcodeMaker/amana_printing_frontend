@@ -49,6 +49,7 @@ background: radial-gradient(circle, rgba(199, 101, 101, 0.72) 0%, rgba(209, 192,
       font-weight: 700;
       font-family: 12px;
       padding: 12px;
+     
     }
     .input-group {
       border: 1px solid #0000001a;
@@ -957,7 +958,7 @@ footer a.btn:hover {
     position: relative;
   }
   .site-identity img {
-    width: 50px !important;
+    width: 80px !important;
   }
   body {
     padding-top: 129px;
@@ -1418,7 +1419,7 @@ footer a.btn:hover {
     font-size: 40px;
   }
   h3 {
-    font-size: 20px;
+    font-size: 16px;
     color: #000000 !important;
     font-weight: 700;
     margin-bottom: 20px;
@@ -1869,6 +1870,8 @@ h1.title {
       width: 150px;
       height: 62px;
       font-size: 20px;
+       margin: auto;
+      display: block ;
     }
     background-color: white;
     padding: 40px 30px;
@@ -2134,7 +2137,7 @@ h1.title {
   }
 
   .single_banner div.px-media {
-    aspect-ratio: 2/1;
+    aspect-ratio: 2/1.6;
   }
     .basic_forms {
     .row .item {
@@ -2281,9 +2284,7 @@ h1.title {
     h1 {
       font-size: 20px;
     }
-    h3 {
-      font-size: 18px;
-    }
+   
     p {
       font-size: 14px;
     }
@@ -2329,15 +2330,15 @@ h1.title {
       font-size: 14px;
     }
     h2{
-      font-size: 22px;
+      font-size: 18px;
     }
     .more {
-      font-size: 20px;
+      font-size: 16px;
     }
 
   }
   h1.title{
-    font-size: 20PX;
+    font-size: 20px;
   }
   
   .blogs .cards div.border_around h3 {
@@ -2415,7 +2416,7 @@ width: 200px;
     flex-grow: 1;
   }
   .home-banner-items .banner-content .banner-title {
-    font-size: 32px;
+    font-size: 20px;
   }
   .basic_forms {
     .item {

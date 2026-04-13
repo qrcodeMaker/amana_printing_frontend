@@ -960,7 +960,7 @@ footer a.btn:hover {
     position: relative;
   }
   .site-identity img {
-    width: 50px !important;
+    width: 80px !important;
   }
   body {
     padding-top: 129px;
@@ -1429,7 +1429,7 @@ footer a.btn:hover {
 }
 
 .home-banner-items h3 {
-  font-size: 20px;
+  font-size: 16px;
   color: #000000 !important;
   font-weight: 700;
   margin-bottom: 20px;
@@ -2010,6 +2010,8 @@ h1.title::after {
   width: 150px;
   height: 62px;
   font-size: 20px;
+  margin: auto;
+  display: block;
 }
 
 .single_blog {
@@ -2297,7 +2299,7 @@ h1.title::after {
     font-size: 45px;
   }
   .single_banner div.px-media {
-    aspect-ratio: 2/1;
+    aspect-ratio: 2/1.6;
   }
   .basic_forms .row .item {
     width: calc(100% / 2);
@@ -2459,9 +2461,6 @@ h1.title::after {
   .home-banner-items h1 {
     font-size: 20px;
   }
-  .home-banner-items h3 {
-    font-size: 18px;
-  }
   .home-banner-items p {
     font-size: 14px;
   }
@@ -2502,13 +2501,13 @@ h1.title::after {
     font-size: 14px;
   }
   .about h2 {
-    font-size: 22px;
+    font-size: 18px;
   }
   .about .more {
-    font-size: 20px;
+    font-size: 16px;
   }
   h1.title {
-    font-size: 20PX;
+    font-size: 20px;
   }
   .blogs .cards div.border_around h3 {
     font-size: 16px !important;
@@ -2578,7 +2577,7 @@ h1.title::after {
             flex-grow: 1;
   }
   .home-banner-items .banner-content .banner-title {
-    font-size: 32px;
+    font-size: 20px;
   }
   .basic_forms .item {
     width: calc(100%);
